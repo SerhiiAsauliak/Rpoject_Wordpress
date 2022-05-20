@@ -1,0 +1,418 @@
+@media (max-width:1200px){
+   .promo{
+      .easy__text{
+         font-size: 18px;
+      }
+      .easy__big{
+         max-width: 900px;
+         margin: 0 auto;
+      }
+      .easy__big::after{
+         width: 150px;
+      }
+      .easy__big::before{
+         width: 150px;
+
+      }
+   }
+   .offer{
+     padding-bottom: 20px;
+     &__main{
+        flex: 33.33%;
+        justify-content: space-around;
+     }
+     &__item{
+      width: 300px;
+      padding: 0;
+     }
+     &__img img{
+        width: 100%;
+     }
+  }
+  .optimization{
+     &__info{
+        padding:40px 10px;
+     }
+     &__img{
+      top: 107px;
+     }
+  }
+}
+@media (max-width:991px){
+   .promo{
+      height: 650px;
+      .logo{
+         &__img{
+            padding-top: 20px;
+         }
+         &__text{
+            margin-bottom: 20px;
+         }
+      }
+      .easy{
+         &__title-bottom,.easy__title-top{
+            font-size: 30px;
+            margin-bottom: 15px;
+         }
+         &__text{
+            font-size: 13px;
+            font-weight: 400;
+            margin:20px 0 45px 0;
+         }
+         &__big{
+           font-size: 50px;
+           margin-bottom: 12px;
+         }
+         &__big::after,.easy__big::before{
+            display: none;
+         }
+      }
+      .more{
+         &__btn{
+            margin-bottom: 45px;
+         }
+         &__text{
+            margin-bottom: 10px;
+         }
+      }
+   }
+   .offer{
+      &__header{
+         padding-top: 65px;
+      }
+      &__title::after{
+         @include yellow_line_smaller;
+      }
+      &__subtitle{
+         font-size: 20px;
+         margin-bottom: 35px;
+      }
+      &__main{
+         flex-direction: column;
+         align-items: center;
+      }
+      &__item{
+         width: 50%;
+         margin-bottom: 20px
+      }
+   }
+   .optimization{
+      &__wrapper{
+         min-height: 484px;
+      }
+      &__info{
+         margin-left: 300px;
+         padding: 20px 10px;
+      }
+      &__img img{
+         width: 75%;
+      }
+      &__title{
+         font-size: 25px;
+         font-weight: 500;
+      }
+      &__text{
+         font-size: 14px;
+         line-height: 20px;
+      }
+   }
+   .finish{
+      min-height: 660px;
+      &__title{
+         padding-top: 25px;
+         margin-bottom: 40px
+      }
+      &__title::after{
+         @include yellow_line_smaller;
+         top: 68px;
+      }
+      &__items{
+         flex-wrap: wrap;
+      }
+      &__item{
+         width: 45%;
+         margin-bottom: 20px;
+      }
+   }
+   .gift{
+      min-height: 580px;
+      &__wrapper{
+         padding: 30px 0;
+      }
+      &__text{
+         font-size: 23px;
+         line-height: 35px;
+      }
+   }
+   .webinar{
+      min-height: 480px;
+      &__title{
+         margin-bottom: 15px;
+      }
+      &__subtitle{
+         font-size: 25px;
+         margin-bottom: 15px;
+      }
+      &__descr{
+         font-size: 20px;
+      }
+   }
+   .footer{
+      height: 100px;
+      font-size: 14px;
+      &__info{
+         padding-top: 30px;
+      }
+      &__info ul:first-child::after{
+         left: 135px;
+      }
+      &__contact{
+         margin: 0;
+         padding: 0;
+      }
+   }
+   .button{
+      height: 60px;
+      width: 280px;
+      font-size: 18px;
+   }
+   .title{
+      font-size: 22px;
+   }
+}
+@media (max-width:767px){
+   .promo{
+      height: 520px;
+      padding: 0 10px;
+      .logo{
+         &__img{
+            padding: 10px 0;
+            margin:0 ;
+         }
+         &__text{
+            font-size: 12px;
+            line-height: normal;
+         }
+      }
+      .easy{
+         &__title-bottom,.easy__title-top{
+            font-size: 20px;
+            margin: 0;
+         }
+         &__big{
+            font-size: 38px;
+            margin: 0;
+         }
+         &__text{
+            font-size: 10px;
+            margin: 12px 0 30px 0;
+         }
+      }
+      .more{
+         &__img{
+            margin: 0 auto;
+            width: 22px;
+            height: 14px;
+         }
+         &__text{
+            font-size: 12px;
+         }
+      }
+   }
+   .offer{
+      &__header{
+         padding-top: 38px;
+      }
+      &__title {
+         margin-bottom: 18px;
+      }
+      &__title::after{
+         width: 130px;
+         height: 2px;
+         top: 33px;
+      }
+      
+      &__subtitle {
+         font-size: 14px;
+         margin-bottom: 25px;
+      }   
+   }
+   .optimization{
+      &__wrapper{
+         min-height: 320px;
+      }
+      &__title{
+         font-size: 18px;
+         margin: 0;
+      }
+      &__info{
+         margin: 0;
+         padding: 20px 40px;
+      }
+      &__text{
+         font-size: 12px;
+         line-height: 16px;
+      }
+      &__img{
+         display: none;
+      }
+   }
+   .gift{
+      min-height: 450px;
+      padding: 0 20px;
+      &__text {
+         font-size: 14px;
+         line-height: 20px;
+         margin-bottom: 35px;
+      }
+      &__img{
+         margin: 25px auto;
+      }
+   } 
+   .webinar{
+      min-height: 420px;
+      &__inner{
+         padding-top: 50px;
+      }
+      &__title{
+         margin-bottom: 5px;
+      }
+      &__subtitle{
+         font-size: 22px;
+         margin-bottom: 5px;
+      }
+   }  
+   .title{
+      font-size: 18px;
+   }
+   .button{
+      height: 40px;
+      width: 240px;
+      font-size: 14px;
+   }
+}
+@media (max-width:575px){
+  .promo{
+   height: 490px;
+     .logo{
+        padding: 5px 0;
+      & img{
+         width: 55px;
+         height: 45px;
+        }
+        &__img{
+           padding:10px 0;
+        }
+        &__text{
+           font-size: 10px;
+           margin-bottom: 8px;
+        }
+     } 
+     .easy{
+      &__title-bottom,.easy__title-top{
+         font-size: 16px;
+         margin-bottom: 8px;
+      }
+      &__big{
+         font-size: 30px;
+         margin-bottom: 8px;
+      }
+      &__text{
+         width: 70%;
+         margin: 0 auto;
+         margin-bottom: 8px;
+         line-height: 20px;
+         font-weight: 300;
+         font-size: 9px;
+      }
+   }
+   .more{
+      &__btn{
+         margin-bottom: 38px;
+      }
+      &__text{
+         font-size: 10px;
+      }
+      &__img img{
+         width: auto;
+         height: 12px;
+      }
+   }
+  }
+  .offer{
+     &__title::after{
+      top: 28px;
+     }
+     &__subtitle{
+        margin-bottom: 20px;
+     }
+     &__img{
+        margin-bottom: 10px;
+     }
+     &__item{
+        width: 80%;
+     }
+  }
+  .finish{
+     min-height: 950px;
+     &__items{
+      align-items: center;
+      flex-direction: column;
+     }
+     &__item{
+        width: 70%;
+     }
+     &__img{
+        margin-bottom: 10px;
+     }
+     &__text{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 15px;
+     }
+  }
+  .gift{
+     &__img{
+        margin: 18px auto;
+     }
+     &__img img{
+      width: 134px;
+      height: 150px;
+     }
+  }
+  .webinar{
+     min-height: 380px;
+     &__img img{
+      width: 270px;
+      height: 150px;
+      }
+      &__subtitle{
+         font-size: 18px;
+      }
+      &__descr{
+         font-size: 15px;
+      }
+     }
+   .footer{
+      font-size: 10px;
+      height: 80px;
+      &__info{
+         padding-top: 30px;
+      }
+      &__info ul:first-child::after {
+         width: 1px;
+         height: 12px;
+         left: 99px;
+         top: 0px;
+      }
+   }  
+   .title {
+      font-weight: 500;
+      font-size: 14px;
+   }
+   .button{
+      height: 35px;
+      width: 200px;
+      font-size: 12px;
+     }
+  }

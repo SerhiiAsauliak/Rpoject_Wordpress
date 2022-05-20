@@ -306,9 +306,6 @@ body {
 
 .webinar__title {
   color: #252525;
-  font-weight: 400;
-  font-size: 30px;
-  text-transform: uppercase;
   margin-bottom: 25px;
 }
 
@@ -368,4 +365,422 @@ body {
 
 .footer__contact {
   padding-bottom: 69px;
+}
+
+@media (max-width: 1200px) {
+  .promo .easy__text {
+    font-size: 18px;
+  }
+  .promo .easy__big {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .promo .easy__big::after {
+    width: 150px;
+  }
+  .promo .easy__big::before {
+    width: 150px;
+  }
+  .offer {
+    padding-bottom: 20px;
+  }
+  .offer__main {
+    -webkit-box-flex: 33.33%;
+        -ms-flex: 33.33%;
+            flex: 33.33%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .offer__item {
+    width: 300px;
+    padding: 0;
+  }
+  .offer__img img {
+    width: 100%;
+  }
+  .optimization__info {
+    padding: 40px 10px;
+  }
+  .optimization__img {
+    top: 107px;
+  }
+}
+
+@media (max-width: 991px) {
+  .promo {
+    height: 650px;
+  }
+  .promo .logo__img {
+    padding-top: 20px;
+  }
+  .promo .logo__text {
+    margin-bottom: 20px;
+  }
+  .promo .easy__title-bottom, .promo .easy .easy__title-top {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .promo .easy__text {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 20px 0 45px 0;
+  }
+  .promo .easy__big {
+    font-size: 50px;
+    margin-bottom: 12px;
+  }
+  .promo .easy__big::after, .promo .easy .easy__big::before {
+    display: none;
+  }
+  .promo .more__btn {
+    margin-bottom: 45px;
+  }
+  .promo .more__text {
+    margin-bottom: 10px;
+  }
+  .offer__header {
+    padding-top: 65px;
+  }
+  .offer__title::after {
+    content: '';
+    width: 180px;
+    height: 3px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: absolute;
+    background: #F9BF3B;
+    top: 55px;
+  }
+  .offer__subtitle {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .offer__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer__item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .optimization__wrapper {
+    min-height: 484px;
+  }
+  .optimization__info {
+    margin-left: 300px;
+    padding: 20px 10px;
+  }
+  .optimization__img img {
+    width: 75%;
+  }
+  .optimization__title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .optimization__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .finish {
+    min-height: 660px;
+  }
+  .finish__title {
+    padding-top: 25px;
+    margin-bottom: 40px;
+  }
+  .finish__title::after {
+    content: '';
+    width: 180px;
+    height: 3px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: absolute;
+    background: #F9BF3B;
+    top: 55px;
+    top: 68px;
+  }
+  .finish__items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .finish__item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .gift {
+    min-height: 580px;
+  }
+  .gift__wrapper {
+    padding: 30px 0;
+  }
+  .gift__text {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .webinar {
+    min-height: 480px;
+  }
+  .webinar__title {
+    margin-bottom: 15px;
+  }
+  .webinar__subtitle {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .webinar__descr {
+    font-size: 20px;
+  }
+  .footer {
+    height: 100px;
+    font-size: 14px;
+  }
+  .footer__info {
+    padding-top: 30px;
+  }
+  .footer__info ul:first-child::after {
+    left: 135px;
+  }
+  .footer__contact {
+    margin: 0;
+    padding: 0;
+  }
+  .button {
+    height: 60px;
+    width: 280px;
+    font-size: 18px;
+  }
+  .title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    height: 520px;
+    padding: 0 10px;
+  }
+  .promo .logo__img {
+    padding: 10px 0;
+    margin: 0;
+  }
+  .promo .logo__text {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .promo .easy__title-bottom, .promo .easy .easy__title-top {
+    font-size: 20px;
+    margin: 0;
+  }
+  .promo .easy__big {
+    font-size: 38px;
+    margin: 0;
+  }
+  .promo .easy__text {
+    font-size: 10px;
+    margin: 12px 0 30px 0;
+  }
+  .promo .more__img {
+    margin: 0 auto;
+    width: 22px;
+    height: 14px;
+  }
+  .promo .more__text {
+    font-size: 12px;
+  }
+  .offer__header {
+    padding-top: 38px;
+  }
+  .offer__title {
+    margin-bottom: 18px;
+  }
+  .offer__title::after {
+    width: 130px;
+    height: 2px;
+    top: 33px;
+  }
+  .offer__subtitle {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .optimization__wrapper {
+    min-height: 320px;
+  }
+  .optimization__title {
+    font-size: 18px;
+    margin: 0;
+  }
+  .optimization__info {
+    margin: 0;
+    padding: 20px 40px;
+  }
+  .optimization__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .optimization__img {
+    display: none;
+  }
+  .gift {
+    min-height: 450px;
+    padding: 0 20px;
+  }
+  .gift__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 35px;
+  }
+  .gift__img {
+    margin: 25px auto;
+  }
+  .webinar {
+    min-height: 420px;
+  }
+  .webinar__inner {
+    padding-top: 50px;
+  }
+  .webinar__title {
+    margin-bottom: 5px;
+  }
+  .webinar__subtitle {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .button {
+    height: 40px;
+    width: 240px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .promo {
+    height: 490px;
+  }
+  .promo .logo {
+    padding: 5px 0;
+  }
+  .promo .logo img {
+    width: 55px;
+    height: 45px;
+  }
+  .promo .logo__img {
+    padding: 10px 0;
+  }
+  .promo .logo__text {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  .promo .easy__title-bottom, .promo .easy .easy__title-top {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .promo .easy__big {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .promo .easy__text {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 9px;
+  }
+  .promo .more__btn {
+    margin-bottom: 38px;
+  }
+  .promo .more__text {
+    font-size: 10px;
+  }
+  .promo .more__img img {
+    width: auto;
+    height: 12px;
+  }
+  .offer__title::after {
+    top: 28px;
+  }
+  .offer__subtitle {
+    margin-bottom: 20px;
+  }
+  .offer__img {
+    margin-bottom: 10px;
+  }
+  .offer__item {
+    width: 80%;
+  }
+  .finish {
+    min-height: 950px;
+  }
+  .finish__items {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .finish__item {
+    width: 70%;
+  }
+  .finish__img {
+    margin-bottom: 10px;
+  }
+  .finish__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .gift__img {
+    margin: 18px auto;
+  }
+  .gift__img img {
+    width: 134px;
+    height: 150px;
+  }
+  .webinar {
+    min-height: 380px;
+  }
+  .webinar__img img {
+    width: 270px;
+    height: 150px;
+  }
+  .webinar__subtitle {
+    font-size: 18px;
+  }
+  .webinar__descr {
+    font-size: 15px;
+  }
+  .footer {
+    font-size: 10px;
+    height: 80px;
+  }
+  .footer__info {
+    padding-top: 30px;
+  }
+  .footer__info ul:first-child::after {
+    width: 1px;
+    height: 12px;
+    left: 99px;
+    top: 0px;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .button {
+    height: 35px;
+    width: 200px;
+    font-size: 12px;
+  }
 }
