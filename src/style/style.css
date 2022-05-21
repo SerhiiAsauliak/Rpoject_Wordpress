@@ -13,7 +13,7 @@ body {
 
 .promo {
   background: url("../Img/main_bg.png") center center/cover no-repeat;
-  height: 802px;
+  height: 820px;
 }
 
 .promo .logo__img {
@@ -51,20 +51,20 @@ body {
   content: ' ';
   background: #FFFFFF;
   height: 2px;
-  width: 292px;
+  width: 200px;
   position: absolute;
   right: 0px;
-  top: 45px;
+  top: 55px;
 }
 
 .promo .easy__big::before {
   content: ' ';
   background: #FFFFFF;
   height: 2px;
-  width: 292px;
+  width: 200px;
   position: absolute;
   left: 0px;
-  top: 45px;
+  top: 55px;
 }
 
 .promo .easy__bottom {
@@ -194,7 +194,7 @@ body {
 .optimization__img {
   position: absolute;
   left: -240px;
-  top: 101px;
+  top: 128px;
   z-index: -1;
 }
 
@@ -376,10 +376,10 @@ body {
     margin: 0 auto;
   }
   .promo .easy__big::after {
-    width: 150px;
+    width: 125px;
   }
   .promo .easy__big::before {
-    width: 150px;
+    width: 125px;
   }
   .offer {
     padding-bottom: 20px;
